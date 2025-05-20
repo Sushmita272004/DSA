@@ -23,8 +23,6 @@ void min_radius(vector<int>& houses,vector<int>& lights, int n){
         int min_dist=std::min(myList);
 
     }
-
-
 }
 
 int main(){
