@@ -37,7 +37,7 @@ int main(){
     root->right->left->left->left->left = new TreeNode(10);
 
     // Function to calculate the diameter of the tree
-    int ans = diameterofbinarytree(root);
+    int ans = diameterOfBinaryTree(root);
     cout<< "The diameter of the binary tree is: " << ans << endl;
     return 0;
 }
