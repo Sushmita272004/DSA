@@ -26,7 +26,7 @@ int main(){
 
     vector<int> ans;
     inOrder(ans, root);
-
+     
     cout<<" the In-order traversal of the tree is: " << endl;
     for (int val : ans){
         cout<< val << " ";
